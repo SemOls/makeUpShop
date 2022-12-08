@@ -9,11 +9,11 @@ function Filter ({product_type}) {
         <div>
           <p onClick={()=> {dispatch(filterCategory(product_type))}} 
            className={selectedCategory ===  product_type ? "categoryButtonSelected buttonSelected" : "categoryButton" }>
-  {product_type}
+           {product_type}
   
-  </p>
+           </p>
           
-            </div>
+        </div>
     )
 }
 export default Filter

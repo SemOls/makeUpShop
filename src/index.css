@@ -45,6 +45,7 @@ code {
  }
 .text {
   display: flex;
+  justify-content: center;
   flex: auto;
   flex-wrap: wrap;
   text-align: center;
@@ -54,7 +55,7 @@ display: flex;
 width: 350px;
 flex-direction: column;
 height: 100vh;
-margin-top: 10px;
+margin-top: 3px;
 margin-left: 0;
 margin-right: 0;
 border: 0;
@@ -81,6 +82,7 @@ border: 0;
 }
 .part {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -107,12 +109,18 @@ border: 0;
   line-height: 1;
 
     }
+ 
 .product {
   display: flex;
-  width: 1040px;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex: 1;
   flex-wrap: wrap;
-  position: relative;
+  /* display: flex;
+  width: min-content;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; */
+  /* position: relative; */
   }
   .box {
         text-align: center;
@@ -146,4 +154,15 @@ border: 0;
   background-color: rgb(190, 218, 190);
   border: none;
   text-transform:uppercase;
+}
+.account {
+  display: flex;
+  justify-content: flex-end; 
+  font-family: 'Abel', sans-serif;
+  font-size: x-small;
+}
+.log {
+  display: flex;
+  justify-content: flex-end; 
+  font-family: 'Abel', sans-serif;
 }

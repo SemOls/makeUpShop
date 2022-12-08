@@ -4,13 +4,13 @@ export const brandSlice = createSlice({
     name: 'counter',
     initialState:{
         selectedCategory: "blush"
-    },
+                 },
     reducers: {
         filterCategory:(state, action) =>{
          
             state.selectedCategory= action.payload;
-        } 
-    }
+                                         } 
+              }
 })
 
 export const {filterCategory} = brandSlice.actions;
