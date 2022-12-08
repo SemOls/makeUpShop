@@ -11,7 +11,7 @@ const AllMakeUp = () => {
 
   useEffect(() => {
     async function fetchData() {
-       const response = await fetch(`http://makeup-api.herokuapp.com/api/v1/products.json?brand=${myBrand}`);
+       const response = await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json?brand=${myBrand}`);
        const data = await response.json();
       setMyList(data);
       console.log(data)
