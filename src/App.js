@@ -3,6 +3,8 @@
 // import MakUps from "./Components/makeUpComponents/makeUps";
 import Home from "./Home";
 import { useAuth0 } from "@auth0/auth0-react";
+import React from "react";
+
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
   return (
     <div className="App">
       <Home />
+      
+ 
       {/* <div className="main-block">
       <div className="block">
     <AllBrand />

@@ -24,7 +24,8 @@ const AllMakeUp = () => {
           <h2 className='text'>
             Brands list</h2>
         <div className='text'>
-   <button className={"categoryButton"} onClick={()=> setMyBrand ("maybelline")}> maybelline </button>
+
+   <button className='filtered' onClick={()=> setMyBrand ("maybelline")}> <input type="checkbox"/> maybelline </button>
    <button className={"categoryButton"} onClick={()=> setMyBrand ("almay")}> almay </button>
    <button className={"categoryButton"} onClick={()=> setMyBrand ("alva")}> alva </button>
    <button className={"categoryButton"} onClick={()=> setMyBrand ("annabelle")}> annabelle </button>

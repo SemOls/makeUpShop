@@ -147,6 +147,9 @@ border: 0;
 .categoryButton {
   text-transform:uppercase;
 }
+.filtered {
+  text-transform:uppercase;
+}
 .categoryButtonSelected {
   cursor: pointer;
   margin: 5px;
@@ -154,6 +157,24 @@ border: 0;
   background-color: rgb(190, 218, 190);
   border: none;
   text-transform:uppercase;
+}
+.checked {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(190, 218, 190);
+  border: none;
+  text-transform:uppercase;
+}
+.checked input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.filtered input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 .account {
   display: flex;
@@ -166,3 +187,20 @@ border: 0;
   justify-content: flex-end; 
   font-family: 'Abel', sans-serif;
 }
+.modal {
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+
+  height: 100px;   
+	width: 300px;
+
+  color: white;
+	overflow: auto;
+
+ background-color: rgba(0, 0, 0, 0.4);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border: .5px #E1BEE7 solid;
+}
+
+
