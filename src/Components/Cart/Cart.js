@@ -6,8 +6,9 @@ import { useState } from "react";
 
 function Cart (){
     const cartItems = useSelector(getCartItems);
-    const totalPrice = useSelector(getTotalPrice)
-    const [showPay, setShowPay] = useState(false)
+    const totalPrice = useSelector(getTotalPrice);
+    const [showPay, setShowPay] = useState(false);
+    
     return(
         <div>
             {showPay ? <StripeContainer/> :

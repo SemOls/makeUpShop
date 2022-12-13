@@ -192,8 +192,8 @@ border: 0;
 	z-index: 1;
 	padding-top: 100px;
 
-  height: 100px;   
-	width: 300px;
+  height: 300px;   
+	width: max-content;
 
   color: white;
 	overflow: auto;
