@@ -10,12 +10,10 @@ const Logout =()=>{
     return(
         isAuthenticated && (
         <div>
-       
-
             <div className="log">
                 <button className="log" onClick={() => logout()}>Log Out</button>
             </div>
-            <div className="main-block">
+            <div className="mainBlock">
               <div className="block">
                 <AllBrand />
               </div>

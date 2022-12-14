@@ -1,5 +1,5 @@
 
-import AllMakeUp from "./Components NON/allMakeUp"
+// import AllMakeUp from "./Components NON/allMakeUp"
 import Login from "./Components/Auth/login"
 import Logout from "./Components/Auth/logot"
 import MyAcount from "./Components/Auth/MyAcount"
@@ -20,7 +20,7 @@ const Home =()=>{
             <div className="header">
                 <h1> Makeup Online Shop</h1>
             </div>
-             <AllMakeUp/>
+             {/* <AllMakeUp/> */}
              <Foto/>                 
     </div>
     )
