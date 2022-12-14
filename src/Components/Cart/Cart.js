@@ -20,7 +20,7 @@ function Cart (){
           <img alt="cart" src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/null/external-cart-100-most-used-icons-flaticons-flat-flat-icons.png"/>
            {cartItems.map( (cartItem,index)  =>  <CartItem  key={index} cartItem={cartItem} /> )} 
            <h4>Total: $ {totalPrice.toFixed(2)}</h4>
-           <button onClick={()=> setShowPay(true)}> <img className="icon" src="https://icons8.com/icon/79306/get-cash"  width="25px" alt="icon"/> pay </button>
+           <button onClick={()=> setShowPay(true)}> <img className="icon" src="https://img.icons8.com/dotty/80/null/get-cash.png"/>  width="25px" alt="icon"/> pay </button>
        </div>
             }
         </div>
