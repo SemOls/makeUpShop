@@ -49,8 +49,9 @@ export const CheckoutForm = () => {
     </form>
     :
     <div className="App">
-        <h2>Your payment was successfu!</h2>
-        <h3>Enjoy Your purchase</h3>
+        <h3> <img src="https://img.icons8.com/office/16/null/good-pincode.png" width="30px" alt="icon" /> Your payment was successfu! 
+        <img src="https://img.icons8.com/external-flat-icons-inmotus-design/67/null/external-enjoy-set-of-stickers-flat-icons-inmotus-design.png" width="30px" alt="icon" />
+        </h3>
     </div>
     }
     </div>
